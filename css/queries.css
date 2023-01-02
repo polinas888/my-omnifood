@@ -1,0 +1,298 @@
+@media (max-width: 1340px) {
+  .container {
+    max-width: 120em;
+  }
+
+  .main-presentation--title {
+    font-size: 4.6em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  .how-it-works--step--number {
+    font-size: 8em;
+  }
+
+  .media-grid-2-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .meal-card {
+    width: 90%;
+  }
+
+  .testimonial-section {
+    padding-left: 4.8em;
+  }
+
+  .testimonial--text {
+    padding-right: 0;
+  }
+
+  .media-no-column-gap {
+    column-gap: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  h1 {
+    font-size: 3.6em;
+  }
+
+  h2 {
+    font-size: 2.4em;
+  }
+}
+
+@media (max-width: 1032px) {
+  html {
+    font-size: 50%;
+  }
+
+  .cta-container {
+    grid-template-columns: 3fr 2fr;
+    z-index: 5;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container img {
+    width: 100%;
+    justify-self: center;
+  }
+
+  .form {
+    padding-bottom: 2.4em;
+  }
+
+  .cta-form--text {
+    padding-bottom: 1.8em;
+  }
+
+  .main-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btns {
+    justify-content: center;
+    margin-bottom: 4.2em;
+  }
+
+  .motivated-info {
+    justify-content: center;
+  }
+
+  .main-presentation--img {
+    width: 50%;
+  }
+
+  .client-icon {
+    height: 2.4em;
+  }
+
+  .diet-title {
+    font-size: 2.4em;
+  }
+
+  .meal-card {
+    width: 95%;
+  }
+
+  .dish-name {
+    font-size: 2.2em;
+  }
+
+  .testimonial-section-container-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media-grid-6-cols {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .testimonial-section {
+    padding-top: 9.6em;
+  }
+
+  .plan {
+    width: 80%;
+  }
+}
+
+@media (max-width: 940px) {
+  .main-nav--list {
+    display: none;
+  }
+
+  .html {
+    position: relative;
+  }
+
+  .menu-icon {
+    background: url("../img/menu-outline.svg");
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    width: 6em;
+    height: 6em;
+  }
+
+  .open {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4.8em;
+    flex-direction: column;
+  }
+
+  .main-nav--list .main-nav--list--link {
+    font-size: 3em;
+  }
+
+  .main-presentation--title {
+    padding-top: 1.8em;
+  }
+}
+
+@media (max-width: 810px) {
+  .media810-grid-2-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .diets-container {
+    grid-column: 1/-1;
+  }
+
+  .plan {
+    width: 100%;
+  }
+
+  .how-it-works--step--img {
+    width: 38%;
+  }
+
+  .how-it-works--step--img-container::before {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  .how-it-works--step--img-container::after {
+    width: 70%;
+    padding-bottom: 70%;
+  }
+
+  .footer {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 8em;
+    column-gap: 2.4em;
+  }
+
+  .company-info {
+    order: -3;
+    grid-column: 1 / span 2;
+  }
+
+  .account-info {
+    order: -2;
+    grid-column: 3 / span 2;
+  }
+
+  .resources {
+    order: -1;
+    grid-column: 5 / span 2;
+  }
+
+  .logo-copyright-info {
+    grid-column: 1 / span 3;
+  }
+
+  .contacts-info {
+    grid-column: 4 / span 3;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    padding: 6.4em 2.4em;
+  }
+
+  .main-presentation--img {
+    width: 80%;
+  }
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .client-section {
+    margin: 0;
+  }
+
+  .client-icon {
+    height: 1.4em;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .how-it-works-item:nth-of-type(2) {
+    order: -1;
+  }
+
+  .how-it-works-item:nth-of-type(5) {
+    order: 1;
+  }
+
+  .media810-grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .media-grid-6-cols {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2em;
+  }
+
+  .testimonial-section {
+    padding-right: 2.4em;
+    padding-top: 4.8em;
+  }
+
+  .img-container {
+    height: 35em;
+    order: -1;
+    background-position: center;
+  }
+
+  .cta-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    row-gap: 2.4em;
+  }
+
+  .cta-form {
+    padding: 4.8em;
+    margin-bottom: 0;
+  }
+}
